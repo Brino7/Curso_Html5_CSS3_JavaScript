@@ -9,6 +9,7 @@ and open the template in the editor.
         <title>Tudo sobre Google Glass</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="estilo.css"/>
+        <link rel="stylesheet" href="spec.css"/>
         <script language = "javascript" src="javascriptGoogleGlass.js"></script>
     </head>
 
@@ -31,15 +32,30 @@ and open the template in the editor.
                     </ul>
                 </nav>
             </header>
+            <section id="corpo-full">
+                <article id="noticia-principal">
+                    <header id="cabecalho-artigo">
+                        <hgroup>
+                            <h3>Glass > Especificações</h3>
+                            <h1>Raio-X no Google Glass</h1>
+                            <h2>por Gustavo Guanabara</h2>
+                            <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                </hgroup>
+                </header>
+                    <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
 
-            Glass > Especificações
-            Raio-X no Google Glass
-            por Gustavo Guanabara
-            Atualizado em 01/Maio/2013
-
-            Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
-
-            [AQUI ENTRA UMA IMAGEM]
+                    <section id="conteudo">
+                        <img src="_imagens/glass-esquema-marcado.jpg" usemap="#meumapa"/>
+                        <map name="meumapa">
+                            <area shape="poly" coords="182,219,264,208,266,242,184,256" href="txtspecs1.html#tela" target="janela"/>
+                            <area shape="poly" coords="26,145,82,216,82,250,27,179" href="txtspecs1.html#sensores" target="janela"/>
+                            <area shape="circle" coords="157,245,12" href="txtspecs1.html#camera" target="janela"/>
+                            <area shape="circle" coords="76,51,13" href="txtspecs1.html#gadgets" target="janela"/>
+                        </map>
+                        <iframe src="txtspecs1.html" scrolling="no" name="janela" id="frame-spec"></iframe>
+                    </section>
+                </article>
+            </section>
 
             <footer id="rodape">
                 <p> Copyright &copy; 2013 - by Gustavo Guanabara<br>
