@@ -30,6 +30,7 @@ video#filme01 {
     left: 35px;
     top: auto;
     width: 440px;
+    bottom: 10px;
 }
 video#filme02 {
     width: 350px;
